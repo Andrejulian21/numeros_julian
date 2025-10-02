@@ -12,14 +12,16 @@ from streamlit_drawable_canvas import st_canvas
 import os
 import pandas as pd
 
-# Mostrar logo
-st.image("logo.gif", use_container_width=True)
+
 
 # Título
-st.title("🧮 Reconocimiento de números escritos a mano - Alfredo Díaz Claro 2025")
+st.title("🧮 Reconocimiento de números escritos a mano - Julian Arteaga 2025")
+
+# Mostrar logo
+st.image("descarga.jpeg", use_container_width=True)
 
 # Lista de modelos disponibles
-modelos_disponibles = ["numerosD1.keras", "numerosC2.keras", "numerosC3.keras"]
+modelos_disponibles = ["numerosD1jul.keras", "numerosC2jul.keras", "numerosC3jul.keras"]
 
 # Función para cargar modelos con caché (más eficiente)
 @st.cache_resource
